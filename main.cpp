@@ -4,12 +4,12 @@ using namespace std;
 
 int main() {
 
-  int a, b;
-  cin >> a >> b;
+  int a, b, c;
+  cin >> a >> b >> c;
 
   if (a < b)
-    cout << a << " " << b;
-  else 
+    cout << a << " " << b << " " << c;
+  else
     cout << b << " " << a;
 
   return 0;

@@ -1,5 +1,16 @@
 #include <iostream>
 
+using namespace std;
+
 int main() {
-  std::cout << "Hello World!\n";
+
+  int a, b, c;
+  cin >> a >> b >> c;
+
+  if (a < b)
+    cout << a << " " << b << " " <<c;
+  else 
+    cout << b << " " << a;
+
+  return 0;
 }
